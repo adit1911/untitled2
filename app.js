@@ -21,7 +21,7 @@ app.get('/getAddress', function(req,res){
   var options = {
     host: url,
     method: 'GET',
-    port:'8080'
+    port:'80'
   };
   http.request(options, function(res){
         console.log('STATUS: ' + res.StatusCode);
